@@ -1,0 +1,570 @@
+@font-face {
+	font-family: "Font Brush";
+	src: url('../mockup/Fonts/brushmosh/BRUSHMOSH! Demo.ttf');
+}
+
+@font-face {
+	font-family: "Font Wonder";
+	src: url('../mockup/Fonts/wonder_boys/Wonder Boys - Personal Use.ttf');
+}
+
+@font-face {
+	font-family: "Font Lemon";
+	src: url('../mockup/Fonts/lemon_milk/LemonMilk.otf');
+}
+
+@font-face {
+	font-family: "Font Baby";
+	src: url('../mockup/Fonts/baby_fox/BabyFox.otf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url('../img/pattern white.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* table {
+  width: 1365px;
+  height: 580px;
+  border: 2px solid black;
+} */
+
+tr {
+  /* height: 300px; */
+  vertical-align: top;
+  margin-bottom: 0px;
+  /* border: 2px solid black; */
+}
+td {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.menu {
+  /* vertical-align: top; */
+  margin-left: 70px;
+}
+
+.menu a {
+  font-family: "Font Wonder";
+  color: black;
+  font-size: 30px;
+}
+
+.profile-img {
+  height: 27px;
+}
+
+.library-img img {
+  height: 184px;
+  /* width: 471px; */
+  float: right;
+}
+.menu-mobile {
+  display: none;
+}
+
+.judul {
+  font-family: "Font Lemon";
+  color: black;
+  font-size: 32px;
+	margin-left: 200px;
+  /* line-height: 50px; */
+}
+
+.report-dropdown-month {
+  font-family: "Font Lemon";
+  color: white;
+  font-size: 15px;
+	/* margin-left: 280px; */
+  /* font-style: italic; */
+  background-color: #5a5a5a;
+  border-radius: 27px;
+  padding: 1px 25px;
+}
+
+.report-dropdown-year {
+  font-family: "Font Lemon";
+  color: white;
+  font-size: 15px;
+	/* margin-left: 280px; */
+  /* font-style: italic; */
+  background-color: #5a5a5a;
+  border-radius: 27px;
+  padding: 1px 50px;
+}
+
+.report-dropdown {
+	font-family: "Font Lemon";
+  color: black;
+  font-size: 20px;
+	margin-left: 240px;
+}
+
+.report-table thead {
+  font-family: "Font Lemon";
+  color: white;
+  font-size: 22px;
+	/* border: 1px solid black; */
+	border-radius: 20px;
+	padding: 7px;
+	background-color: #5a5a5a;
+}
+
+.report-table tbody {
+  font-family: "Font Lemon";
+  color: black;
+  font-size: 15px;
+	/* border: 1px solid black; */
+	border-radius: 20px;
+	padding: 7px;
+	background-color: #5a5a5a;
+}
+
+/* .report-table .thead {
+	color: black;
+}
+
+.report-table .tbody tr:nth-child(even) {
+	color: black;
+}
+
+.report-table .tbody tr:nth-child(odd) {
+	color: white;
+} */
+
+@media screen and (max-width: 1300px) {
+
+  table {
+		width: 100%;
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+  .judul {
+    font-size: 31px;
+    margin-left: 30px;
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+
+  .library-img img {
+    height: 161px;
+  }
+
+  .course-icon img {
+    height: 70px;
+  }
+
+  .course-name a {
+    font-family: "Font Lemon";
+    color: black;
+    font-size: 10px;
+  }
+
+  .spasibwh {
+    line-height: 170px;
+  }
+
+  .spasiats {
+    line-height: 20px;
+  }
+
+  /* .menu-mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .menu-mobile a {
+    font-family: "Font Wonder";
+    color: black;
+    font-size: 20px;
+  } */
+
+  .course-icon .bindo {
+    margin-left: 40px;
+  }
+
+  .course-name .bindo {
+    margin-left: 47px;
+  }
+
+  .course-icon .geo {
+    margin-left: 13px;
+  }
+
+  .course-name .geo {
+    margin-left: 25px;
+  }
+
+  .course-icon .fisika {
+    margin-left: 13px;
+  }
+
+  .course-name .fisika {
+    margin-left: 32px;
+  }
+
+  .course-icon .kimia {
+    margin-left: 10px;
+  }
+
+  .course-name .kimia {
+    margin-left: 17px;
+  }
+
+  .course-icon .mtk {
+    margin-left: 20px;
+  }
+
+  .course-name .mtk {
+    margin-left: 40px;
+  }
+
+  .course-icon .eko {
+    margin-left: 16px;
+  }
+
+  .course-name .eko {
+    margin-left: 47px;
+  }
+
+  .course-icon .sejarah {
+    margin-left: 16px;
+  }
+
+  .course-name .sejarah {
+    margin-left: 42px;
+  }
+
+  .course-icon .bio {
+    margin-left: 0px;
+  }
+
+  .course-name .bio {
+    margin-left: 12px;
+  }
+
+  .course-icon .bing {
+    margin-left: 10px;
+  }
+
+  .course-name .bing {
+    margin-left: 37px;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  table {
+		width: 100%;
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+  .judul {
+    font-size: 28px;
+    margin-left: 10px;
+    /* line-height: 20px; */
+    /* float: left; */
+  }
+
+  .library-img img {
+    height: 141px;
+  }
+
+  .course-icon img {
+    height: 70px;
+  }
+
+  .course-name a {
+    font-family: "Font Lemon";
+    color: black;
+    font-size: 10px;
+  }
+
+  .spasibwh {
+    line-height: 170px;
+  }
+
+  .spasiats {
+    line-height: 20px;
+  }
+
+  /* .menu-mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .menu-mobile a {
+    font-family: "Font Wonder";
+    color: black;
+    font-size: 20px;
+  } */
+
+  .course-icon .bindo {
+    margin-left: 40px;
+  }
+
+  .course-name .bindo {
+    margin-left: 47px;
+  }
+
+  .course-icon .geo {
+    margin-left: 13px;
+  }
+
+  .course-name .geo {
+    margin-left: 25px;
+  }
+
+  .course-icon .fisika {
+    margin-left: 13px;
+  }
+
+  .course-name .fisika {
+    margin-left: 32px;
+  }
+
+  .course-icon .kimia {
+    margin-left: 10px;
+  }
+
+  .course-name .kimia {
+    margin-left: 17px;
+  }
+
+  .course-icon .mtk {
+    margin-left: 20px;
+  }
+
+  .course-name .mtk {
+    margin-left: 40px;
+  }
+
+  .course-icon .eko {
+    margin-left: 16px;
+  }
+
+  .course-name .eko {
+    margin-left: 47px;
+  }
+
+  .course-icon .sejarah {
+    margin-left: 16px;
+  }
+
+  .course-name .sejarah {
+    margin-left: 42px;
+  }
+
+  .course-icon .bio {
+    margin-left: 0px;
+  }
+
+  .course-name .bio {
+    margin-left: 12px;
+  }
+
+  .course-icon .bing {
+    margin-left: 10px;
+  }
+
+  .course-name .bing {
+    margin-left: 37px;
+  }
+
+}
+
+@media screen and (max-width: 860px) {
+
+	table {
+		width: 100%;
+    /* border: 1px solid black; */
+	}
+
+  tr {
+    width: 100%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+  }
+
+  .profile-img {
+    height: 25px;
+  }
+
+  .library-img img {
+    height: 80px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .judul {
+    font-size: 20px;
+    margin-left: 10px;
+    /* line-height: 20px; */
+    /* float: left; */
+  }
+
+  .course-icon img {
+    height: 70px;
+  }
+
+  .course-name a {
+    font-family: "Font Lemon";
+    color: black;
+    font-size: 10px;
+  }
+
+  .spasibwh {
+    line-height: 170px;
+  }
+
+  .spasiats {
+    line-height: 20px;
+  }
+
+  /* hr {
+    padding: 2px;
+    width: 130px;
+  }
+
+  .tombol {
+    line-height: 10px;
+    margin-right: 22px;
+  }
+
+  .tombol a {
+    font-size: 15px;
+  }
+
+  .sub-judul h4 {
+    margin-right: 10px;
+    margin-left: 45px;
+    font-size: 17px;
+    float: left;
+  }
+
+  input {
+    font-size: 15px;
+  }
+
+  button {
+    padding:10px 19px;
+  }
+
+	.quest {
+    font-size: 14px;
+  	margin-left: 50px;
+  }
+
+  .quest a {
+    font-size: 14px;
+  } */
+
+  .menu-mobile {
+    display: block;
+    text-align: center;
+    /* line-height: 190px; */
+  }
+
+  .menu-mobile a {
+    font-family: "Font Wonder";
+    color: black;
+    font-size: 20px;
+  }
+
+  .course-icon .bindo {
+    margin-left: 40px;
+  }
+
+  .course-name .bindo {
+    margin-left: 47px;
+  }
+
+  .course-icon .geo {
+    margin-left: 13px;
+  }
+
+  .course-name .geo {
+    margin-left: 25px;
+  }
+
+  .course-icon .fisika {
+    margin-left: 13px;
+  }
+
+  .course-name .fisika {
+    margin-left: 32px;
+  }
+
+  .course-icon .kimia {
+    margin-left: 10px;
+  }
+
+  .course-name .kimia {
+    margin-left: 17px;
+  }
+
+  .course-icon .mtk {
+    margin-left: 20px;
+  }
+
+  .course-name .mtk {
+    margin-left: 40px;
+  }
+
+  .course-icon .eko {
+    margin-left: 16px;
+  }
+
+  .course-name .eko {
+    margin-left: 47px;
+  }
+
+  .course-icon .sejarah {
+    margin-left: 16px;
+  }
+
+  .course-name .sejarah {
+    margin-left: 42px;
+  }
+
+  .course-icon .bio {
+    margin-left: 0px;
+  }
+
+  .course-name .bio {
+    margin-left: 12px;
+  }
+
+  .course-icon .bing {
+    margin-left: 10px;
+  }
+
+  .course-name .bing {
+    margin-left: 37px;
+  }
+
+}

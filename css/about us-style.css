@@ -1,0 +1,284 @@
+@font-face {
+	font-family: "Font Brush";
+	src: url('../mockup/Fonts/brushmosh/BRUSHMOSH! Demo.ttf');
+}
+
+@font-face {
+	font-family: "Font Wonder";
+	src: url('../mockup/Fonts/wonder_boys/Wonder Boys - Personal Use.ttf');
+}
+
+@font-face {
+	font-family: "Font Lemon";
+	src: url('../mockup/Fonts/lemon_milk/LemonMilk.otf');
+}
+
+@font-face {
+	font-family: "Font Baby";
+	src: url('../mockup/Fonts/baby_fox/BabyFox.otf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url('../img/pattern white.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* font-weight: bold; */
+}
+
+table {
+  width: 1350px;
+  border: 0;
+  align: center;
+}
+
+tr {
+  height: 600px;
+}
+
+.kolom-1 {
+  width: 650px;
+  margin-top: 0;
+  padding-top: 0;
+  /* align-items: center; */
+  /* align-content: center; */
+  vertical-align: top;
+}
+
+.kolom-1 img {
+  /* min-height: 142px; */
+  /* 245px */
+	/* max-height: 595px; */
+  /* min-width: 142px; */
+  /* 245px */
+	/* max-width: 595px; */
+  height: 595px;
+}
+
+.kolom-2 {
+width: 700px;
+/* align-items: center; */
+/* align-content: center; */
+vertical-align: top;
+}
+
+.menu a {
+  font-family: "Font Wonder";
+  color: black;
+  font-size: 25px;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.judul {
+  font-family: "Font Brush";
+  color: black;
+  font-size: 50px;
+}
+
+.sub-judul {
+  font-family: "Futura Bk BT";
+  color: black;
+  font-style: italic;
+  font-size: 18px;
+	text-align: right;
+	margin-right: 100px;
+}
+
+hr {
+  background: black;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  padding: 3px;
+  width: 170px;
+}
+
+.tombol a {
+  font-family: "Font Wonder";
+  color: white;
+  font-size: 20px;
+}
+
+button {
+  background:#800000;
+  /* color:white; */
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:0;
+  /* 5px solid #2A80B9; */
+  border-radius: 25px;
+  padding:17px 25px;
+  text-decoration:none;
+  /* font-family:Wonder Boys; */
+  /* font-size:15pt; */
+}
+
+a {
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
+@media screen and (max-width: 1300px) {
+
+  table {
+		width: 100%;
+		/* margin:25px auto; */
+    /* float: left; */
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+	.kolom-1 {
+		width:5%;
+		/* margin:25px 0 0;
+    width: 25%;
+    height: 25%;
+    float:left; */
+	}
+
+  .kolom-1 img {
+    height: 461px;
+    margin-left: 10px;
+    /* float: left; */
+  }
+
+	.kolom-2 {
+    width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 960px) {
+
+  table {
+		width: 100%;
+		/* margin:25px auto; */
+    /* float: left; */
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+	.kolom-1 {
+		width:5%;
+		/* margin:25px 0 0;
+    width: 25%;
+    height: 25%;
+    float:left; */
+	}
+
+  .kolom-1 img {
+    height: 361px;
+    margin-left: 10px;
+    /* float: left; */
+  }
+
+	.kolom-2 {
+    width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 860px) {
+
+	table {
+		width: 100%;
+		/* margin:25px auto; */
+    /* float: left; */
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+	.kolom-1 {
+		width:5%;
+		/* margin:25px 0 0;
+    width: 25%;
+    height: 25%;
+    float:left; */
+	}
+
+  .kolom-1 img {
+    height: 261px;
+    margin-left: 10px;
+    /* float: left; */
+  }
+
+	.kolom-2 {
+    width: 100%;
+	}
+
+  .menu {
+    display: none;
+    /* font-size: 15px; */
+  }
+
+  .spasiats {
+    line-height: 35px;
+  }
+
+  .judul {
+    font-size: 30px;
+    margin-right: 22px;
+  }
+
+  .sub-judul {
+    font-size: 12px;
+    margin-right: 22px;
+  }
+
+  .spasibwh {
+    line-height: 10px;
+  }
+
+  hr {
+    /* border-radius: 20px; */
+    padding: 2px;
+    width: 100px;
+    /* margin-right: 85px; */
+  }
+
+  .tombol {
+    /* line-height: 10px; */
+    margin-right: 22px;
+  }
+
+  .tombol a {
+    font-size: 15px;
+  }
+
+  button {
+    /* border-radius: 25px; */
+    padding:10px 19px;
+  }
+
+  .menu-mobile {
+    display: block;
+    text-align: center;
+    line-height: 90px;
+    /* float: left; */
+  }
+
+  .menu-mobile a {
+    font-family: "Font Wonder";
+    color: black;
+    font-size: 20px;
+  }
+
+}

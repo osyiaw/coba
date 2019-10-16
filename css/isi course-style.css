@@ -1,0 +1,349 @@
+@font-face {
+	font-family: "Font Brush";
+	src: url('../mockup/Fonts/brushmosh/BRUSHMOSH! Demo.ttf');
+}
+
+@font-face {
+	font-family: "Font Wonder";
+	src: url('../mockup/Fonts/wonder_boys/Wonder Boys - Personal Use.ttf');
+}
+
+@font-face {
+	font-family: "Font Lemon";
+	src: url('../mockup/Fonts/lemon_milk/LemonMilk.otf');
+}
+
+@font-face {
+	font-family: "Font Baby";
+	src: url('../mockup/Fonts/baby_fox/BabyFox.otf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url('../img/pattern white.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* table {
+  width: 1365px;
+  height: 580px;
+  border: 2px solid black;
+} */
+
+tr {
+  /* height: 300px; */
+  vertical-align: top;
+  margin-bottom: 0px;
+  /* border: 2px solid black; */
+}
+
+.menu {
+  /* vertical-align: top; */
+  margin-left: 70px;
+}
+
+.menu a {
+  font-family: "Font Wonder";
+  color: black;
+  font-size: 30px;
+}
+
+.profile-img {
+  height: 27px;
+}
+
+.library-img img {
+  height: 184px;
+  /* width: 471px; */
+  float: right;
+}
+.menu-mobile {
+	display: none;
+}
+
+.judul {
+  font-family: "Font Lemon";
+  color: black;
+  font-size: 32px;
+	margin-left: 100px;
+  /* line-height: 50px; */
+}
+
+.course-icon img {
+  height: 110px;
+}
+
+.course-name a {
+  font-family: "Font Lemon";
+  color: black;
+  font-size: 20px;
+}
+
+.baris-2 {
+	margin-left: 190px;
+}
+
+.baris-2 .course-icon img {
+	margin-left: 90px;
+}
+
+.baris-2 .course-name a {
+	margin-left: 50px;
+}
+
+.baris-2 .course-name .ebook {
+  padding-left: 55px;
+}
+
+.baris-2 .course-name .discussion-room {
+  padding-left: 7px;
+}
+
+.baris-2 .course-name .video-lesson {
+  padding-left: 13px;
+}
+
+.baris-2 .course-name .quiz {
+	padding-left: 53px;
+}
+
+.tombol a {
+  font-family: "Font Wonder";
+  color: white;
+  font-size: 20px;
+}
+
+.tombol button {
+  background:#800000;
+  /* color:white; */
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:0;
+  /* 5px solid #2A80B9; */
+  border-radius: 25px;
+  padding:17px 25px;
+  text-decoration:none;
+	float: right;
+	margin-right: 100px;
+  /* font-family:Wonder Boys; */
+  /* font-size:15pt; */
+}
+
+button:hover{
+    background-color: #2C5AA0;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+  table {
+		width: 100%;
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+  .judul {
+    font-size: 31px;
+    margin-left: 30px;
+  }
+
+  .library-img img {
+    height: 161px;
+  }
+
+  .course-icon img {
+    height: 70px;
+  }
+
+  .course-name a {
+    font-size: 10px;
+  }
+
+	.baris-2 {
+		margin-left: 190px;
+	}
+
+	.baris-2 .course-icon img {
+		margin-left: 100px;
+	}
+
+	.baris-2 .course-name a {
+		margin-left: 93px;
+	}
+
+	.baris-2 .course-name .bindo {
+	  padding-left: 5px;
+	}
+
+	.baris-2 .course-name .fisika {
+	  padding-left: 15px;
+	}
+
+	.baris-2 .course-name .kimia {
+		padding-left: 20px;
+	}
+
+
+}
+
+@media screen and (max-width: 960px) {
+
+	table {
+		width: 100%;
+    /* border: 1px solid black; */
+	}
+
+  tr {
+    width: 100%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+  }
+
+  .profile-img {
+    height: 25px;
+  }
+
+  .library-img img {
+    height: 80px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+	.menu a {
+    font-size: 25px;
+  }
+
+	.menu-mobile {
+    display: block;
+    text-align: center;
+    /* line-height: 190px; */
+  }
+
+  .menu-mobile a {
+    font-size: 30px;
+		font-family: "Font Wonder";
+	  color: black;
+	  font-size: 20px;
+  }
+
+  .judul {
+    font-size: 20px;
+    margin-left: 10px;
+    /* line-height: 20px; */
+    /* float: left; */
+  }
+
+  .course-icon img {
+    height: 70px;
+  }
+
+  .course-name a {
+    font-size: 10px;
+  }
+
+	.baris-2 {
+		margin-left: 50px;
+	}
+
+	.baris-2 .course-icon img {
+		margin-left: 10px;
+	}
+
+	.baris-2 .course-name a {
+		margin-left: 13px;
+	}
+
+	.baris-2 .course-name .geo {
+	  padding-left: 9px;
+	}
+
+
+
+}
+
+@media screen and (max-width: 860px) {
+
+	table {
+		width: 100%;
+    /* border: 1px solid black; */
+	}
+
+  tr {
+    width: 100%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+  }
+
+  .profile-img {
+    height: 25px;
+  }
+
+  .library-img img {
+    height: 80px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+	.menu-mobile {
+    display: block;
+    text-align: center;
+    /* line-height: 190px; */
+  }
+
+  .menu-mobile a {
+    font-size: 30px;
+		font-family: "Font Wonder";
+	  color: black;
+	  font-size: 20px;
+  }
+
+  .judul {
+    font-size: 20px;
+    margin-left: 10px;
+    /* line-height: 20px; */
+    /* float: left; */
+  }
+
+  .course-icon img {
+    height: 70px;
+  }
+
+  .course-name a {
+    font-size: 10px;
+  }
+
+	.baris-2 {
+		margin-left: 50px;
+	}
+
+	.baris-2 .course-icon img {
+		margin-left: 10px;
+	}
+
+	.baris-2 .course-name a {
+		margin-left: 13px;
+	}
+
+	.baris-2 .course-name .geo {
+	  padding-left: 9px;
+	}
+
+
+
+}

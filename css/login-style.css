@@ -1,0 +1,367 @@
+@font-face {
+	font-family: "Font Brush";
+	src: url('../mockup/Fonts/brushmosh/BRUSHMOSH! Demo.ttf');
+}
+
+@font-face {
+	font-family: "Font Wonder";
+	src: url('../mockup/Fonts/wonder_boys/Wonder Boys - Personal Use.ttf');
+}
+
+@font-face {
+	font-family: "Font Lemon";
+	src: url('../mockup/Fonts/lemon_milk/LemonMilk.otf');
+}
+
+@font-face {
+	font-family: "Font Baby";
+	src: url('../mockup/Fonts/baby_fox/BabyFox.otf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url('../img/pattern white.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* font-weight: bold; */
+}
+
+table {
+  width: 1350px;
+  border: 0;
+  align: center;
+}
+
+tr {
+  height: 600px;
+}
+
+.kolom-2 {
+  width: 650px;
+  margin-top: 0;
+  padding-top: 0;
+  /* align-items: center; */
+  /* align-content: center; */
+  vertical-align: top;
+}
+
+.kolom-2 img {
+  /* min-height: 142px; */
+  /* 245px */
+	/* max-height: 595px; */
+  /* min-width: 142px; */
+  /* 245px */
+	/* max-width: 595px; */
+  height: 595px;
+	width: 500px;
+	float: right;
+}
+
+.kolom-1 {
+width: 700px;
+/* align-items: center; */
+/* align-content: center; */
+vertical-align: top;
+}
+
+.menu a {
+  font-family: "Font Wonder";
+  color: black;
+  font-size: 25px;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.spasiats {
+	line-height: 0px;
+}
+
+.judul {
+  font-family: "Font Brush";
+  color: black;
+  font-size: 70px;
+	/* text-align: right; */
+	margin-left: 50px;
+}
+
+.sub-judul {
+  font-family: "Futura Bk BT";
+  color: black;
+  font-style: italic;
+  font-size: 27px;
+  line-height: 12px;
+	margin-left: 50px;
+	/* text-align: right;
+	margin-right: 100px; */
+}
+
+.sub-judul h4 {
+  text-align: left;
+  margin-left: 160px;
+  font-size: 22px;
+	/* text-align: right;
+	margin-right: 180px; */
+}
+
+input {
+  width: 50%;
+  padding: 0 10px;
+  background: none;
+  /* text-align: left; */
+  /* border: none; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 50;
+  border-color: #2C5AA0;
+  /* outline: none; */
+  /* color: white; */
+  font-size: 20px;
+  font-family: "Futura Bk BT";
+	/* text-align: right;
+	margin-right: 100px; */
+}
+
+hr {
+  background: black;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  padding: 3px;
+  width: 200px;
+}
+
+.tombol {
+	margin-left: 70px;
+}
+
+.tombol a {
+  font-family: "Font Wonder";
+  color: white;
+  font-size: 20px;
+}
+
+button {
+  background:#800000;
+  /* color:white; */
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:0;
+  /* 5px solid #2A80B9; */
+  border-radius: 25px;
+  padding:17px 25px;
+  text-decoration:none;
+	/* float: right;
+	margin-right: 180px; */
+  /* font-family:Wonder Boys; */
+  /* font-size:15pt; */
+}
+
+.quest {
+	font-family: "Font Wonder";
+  color: #5A5A5A;
+  font-size: 20px;
+	margin-left: 50px;
+}
+
+.quest a {
+	font-family: "Font Wonder";
+  color: #5A5A5A;
+  font-size: 20px;
+	/* margin-left: 50px; */
+}
+
+a {
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
+@media screen and (max-width: 1300px) {
+
+  table {
+		width: 100%;
+		/* margin:25px auto; */
+    /* float: left; */
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+	.kolom-2 {
+		width:5%;
+		/* margin:25px 0 0;
+    width: 25%;
+    height: 25%;
+    float:left; */
+	}
+
+  .kolom-2 img {
+    height: 461px;
+		width: 400px;
+    margin-left: 10px;
+    /* float: left; */
+  }
+
+	.kolom-1 {
+    width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 960px) {
+
+  table {
+		width: 100%;
+		/* margin:25px auto; */
+    /* float: left; */
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+	.kolom-2 {
+		width:5%;
+		/* margin:25px 0 0;
+    width: 25%;
+    height: 25%;
+    float:left; */
+	}
+
+  .kolom-2 img {
+    height: 361px;
+		width: 300px;
+    margin-left: 10px;
+    /* float: left; */
+  }
+
+	.kolom-1 {
+    width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 860px) {
+
+	table {
+		width: 100%;
+		/* margin:25px auto; */
+    /* float: left; */
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+	.kolom-2 {
+		width:5%;
+		/* margin:25px 0 0;
+    width: 25%;
+    height: 25%;
+    float:left; */
+	}
+
+  .kolom-2 img {
+    height: 261px;
+		width: 200px;
+    margin-left: 10px;
+    /* float: left; */
+  }
+
+	.kolom-1 {
+    width: 100%;
+	}
+
+  .menu {
+    display: none;
+    /* font-size: 15px; */
+  }
+
+  .spasiats {
+    line-height: 150px;
+  }
+
+  .judul {
+    font-size: 40px;
+    margin-right: 22px;
+  }
+
+  .sub-judul {
+    font-size: 19px;
+    margin-right: 22px;
+    line-height: 50px;
+  }
+
+  .spasibwh {
+    line-height: 10px;
+  }
+
+  hr {
+    /* border-radius: 20px; */
+    padding: 2px;
+    width: 130px;
+    /* margin-right: 50px; */
+  }
+
+  .tombol {
+    line-height: 10px;
+    margin-right: 22px;
+  }
+
+  .tombol a {
+    font-size: 15px;
+  }
+
+  .sub-judul h4 {
+    /* text-align: left; */
+    margin-right: 10px;
+    margin-left: 45px;
+    /* margin-right: 100px; */
+    font-size: 17px;
+    float: left;
+  }
+
+  input {
+    font-size: 15px;
+  }
+
+  button {
+    /* border-radius: 25px; */
+    padding:10px 19px;
+  }
+
+	.quest {
+    font-size: 14px;
+  	margin-left: 50px;
+  }
+
+  .quest a {
+    font-size: 14px;
+  }
+
+  .menu-mobile {
+    display: block;
+    text-align: center;
+    line-height: 190px;
+    /* float: left; */
+  }
+
+  .menu-mobile a {
+    font-family: "Font Wonder";
+    color: black;
+    font-size: 20px;
+  }
+
+}

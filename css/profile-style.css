@@ -1,0 +1,315 @@
+@font-face {
+	font-family: "Font Brush";
+	src: url('../mockup/Fonts/brushmosh/BRUSHMOSH! Demo.ttf');
+}
+
+@font-face {
+	font-family: "Font Wonder";
+	src: url('../mockup/Fonts/wonder_boys/Wonder Boys - Personal Use.ttf');
+}
+
+@font-face {
+	font-family: "Font Lemon";
+	src: url('../mockup/Fonts/lemon_milk/LemonMilk.otf');
+}
+
+@font-face {
+	font-family: "Font Baby";
+	src: url('../mockup/Fonts/baby_fox/BabyFox.otf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url('../img/pattern white.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* table {
+  width: 1365px;
+  height: 580px;
+  border: 2px solid black;
+} */
+
+tr {
+  /* height: 300px; */
+  vertical-align: top;
+  margin-bottom: 0px;
+  /* border: 2px solid black; */
+}
+
+.menu {
+  /* vertical-align: top; */
+  margin-left: 70px;
+}
+
+.menu a {
+  font-family: "Font Wonder";
+  color: black;
+  font-size: 30px;
+}
+
+.profile-img {
+  height: 27px;
+}
+
+.library-img img {
+  height: 184px;
+  /* width: 471px; */
+  float: right;
+}
+.menu-mobile {
+  display: none;
+}
+
+.judul {
+  font-family: "Font Lemon";
+  color: black;
+  font-size: 32px;
+	margin-left: 200px;
+  /* line-height: 50px; */
+}
+
+.grade-dropdown {
+  font-family: "Futura Bk BT";
+  color: white;
+  font-size: 16px;
+  font-style: italic;
+  background-color: #5a5a5a;
+  border-radius: 27px;
+  margin-left: 230px;
+  padding: 5px 25px;
+}
+
+.profile-form-mobile {
+  display: none;
+}
+
+.profile-full {
+  height: 100px;
+  background-color: #a5a5a5;
+  border-radius: 27px;
+  margin-left: 245px;
+  padding: 25px;
+}
+
+.baris-2 h4 {
+  font-family: "Futura Bk BT";
+  color: black;
+  font-style: italic;
+  font-size: 18px;
+	margin-left: 230px;
+}
+
+input {
+  /* width: 50%; */
+  padding: 0 10px;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 50;
+  border-color: #2C5AA0;
+  font-size: 18px;
+  font-family: "Futura Bk BT";
+  color: black;
+  font-style: italic;
+  margin-left: 230px;
+}
+
+.menu hr {
+  background: black;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  padding: 1px;
+  width: 20px;
+  float: left;
+  margin-left: 3px;
+  /* line-height: 0px; */
+}
+
+/* .report-table .thead {
+	color: black;
+}
+
+.report-table .tbody tr:nth-child(even) {
+	color: black;
+}
+
+.report-table .tbody tr:nth-child(odd) {
+	color: white;
+} */
+
+@media screen and (max-width: 1300px) {
+
+  table {
+		width: 100%;
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+  .judul {
+    font-size: 31px;
+    margin-left: 200px;
+  }
+
+  .library-img img {
+    height: 161px;
+  }
+
+  .profile-full {
+    height: 70px;
+    margin-left: 260px;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  table {
+		width: 100%;
+	}
+
+  tr {
+    width: 100%;
+    height: 100%;
+  }
+
+  .judul {
+    font-size: 28px;
+    margin-left: 200px;
+    /* line-height: 20px; */
+    /* float: left; */
+  }
+
+  .library-img img {
+    height: 141px;
+  }
+
+  .profile-full {
+    height: 70px;
+    margin-left: 250px;
+  }
+
+  .baris-2 h4 {
+    font-size: 18px;
+  	margin-left: 150px;
+  }
+
+  input {
+    font-size: 18px;
+    margin-left: 150px;
+  }
+
+  .grade-dropdown {
+    font-size: 16px;
+    margin-left: 150px;
+    padding: 5px 25px;
+  }
+
+
+}
+
+@media screen and (max-width: 860px) {
+
+	table {
+		width: 100%;
+    /* border: 1px solid black; */
+	}
+
+  tr {
+    width: 100%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+  }
+
+  .profile-img {
+    height: 25px;
+  }
+
+  .library-img img {
+    height: 80px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .profile-form {
+    display: none;
+  }
+
+  .profile-form-mobile {
+    display: block;
+  }
+
+  .menu-mobile hr {
+    background: black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 20px;
+    padding: 1px;
+    width: 20px;
+    float: left;
+    margin-left: 110px;
+    /* line-height: 0px; */
+  }
+
+  .judul {
+    font-size: 20px;
+    margin-left: 60px;
+    /* line-height: 20px; */
+    /* float: left; */
+  }
+
+  .menu-mobile {
+    display: block;
+    text-align: center;
+    /* line-height: 190px; */
+  }
+
+  .menu-mobile a {
+    font-family: "Font Wonder";
+    color: black;
+    font-size: 20px;
+  }
+
+  .profile-full {
+    height: 70px;
+    margin-left: 75px;
+  }
+
+  .baris-2 h4 {
+    font-size: 15px;
+  	margin-left: 30px;
+  }
+
+  input {
+    font-size: 15px;
+    margin-left: 30px;
+    padding: 0 10px;
+  }
+
+  .grade-dropdown {
+    font-size: 13px;
+    margin-left: 30px;
+    padding: 3px 10px;
+  }
+
+
+}
